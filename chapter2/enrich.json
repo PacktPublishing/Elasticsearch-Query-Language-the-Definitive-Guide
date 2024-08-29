@@ -1,0 +1,45 @@
+#Creating the index with a custom mapping
+PUT /countries
+{
+  "mappings": {
+    "properties": {
+      "country_code": { "type": "keyword" },
+      "country_name": { "type": "keyword" }
+    }
+  }
+}
+#Adding the documentos to the index
+POST /countries/_bulk
+{ "index": { "_id": "1" }}
+{ "country_code": "gb", "country_name": "United Kingdom" }
+{ "index": { "_id": "2" }}
+{ "country_code": "fr", "country_name": "France" }
+{ "index": { "_id": "3" }}
+{ "country_code": "it", "country_name": "Italy" }
+{ "index": { "_id": "4" }}
+{ "country_code": "ru", "country_name": "Russia" }
+{ "index": { "_id": "5" }}
+{ "country_code": "ca", "country_name": "Canada" }
+{ "index": { "_id": "6" }}
+{ "country_code": "jp", "country_name": "Japan" }
+{ "index": { "_id": "7" }}
+{ "country_code": "us", "country_name": "United States" }
+{ "index": { "_id": "8" }}
+{ "country_code": "de", "country_name": "Germany" }
+{ "index": { "_id": "9" }}
+{ "country_code": "es", "country_name": "Spain" }
+{ "index": { "_id": "10" }}
+{ "country_code": "au", "country_name": "Australia" }
+
+#Crete the enrich policy
+PUT /_enrich/policy/countries
+{
+  "match": {
+    "indices": "countries",
+    "match_field": "country_code",
+    "enrich_fields": ["country_name"]
+  }
+}
+
+#Execute the enrich policy
+POST /_enrich/policy/countries/_execute
