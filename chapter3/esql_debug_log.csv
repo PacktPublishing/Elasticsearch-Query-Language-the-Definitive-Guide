@@ -1,0 +1,123 @@
+"@timestamp","process.thread.name",message
+"Sep 6, 2024 @ 00:19:20.172","elasticsearch[es01][transport_worker][T#5]","Beginning execution of ESQL query.
+Query string: [
+FROM retro_arcade
+| WHERE country_code == ""gb""
+| STATS sales_per_year = SUM(price_at_purchase * 0.75) BY year = BUCKET(purchase_date, 1 year )
+    ]"
+"Sep 6, 2024 @ 00:19:20.172","elasticsearch[es01][search][T#8]","ESQL query:
+
+FROM retro_arcade
+| WHERE country_code == ""gb""
+| STATS sales_per_year = SUM(price_at_purchase * 0.75) BY year = BUCKET(purchase_date, 1 year )
+    "
+"Sep 6, 2024 @ 00:19:20.173","elasticsearch[es01][search][T#8]","Parsing as statement: 
+FROM retro_arcade
+| WHERE country_code == ""gb""
+| STATS sales_per_year = SUM(price_at_purchase * 0.75) BY year = BUCKET(purchase_date, 1 year )
+    "
+"Sep 6, 2024 @ 00:19:20.174","elasticsearch[es01][search][T#8]","Parsed logical plan:
+Aggregate[STANDARD,[?BUCKET[?purchase_date, P1Y] AS year],[?SUM[price_at_purchase * 0.75] AS sales_per_year, ?year]]
+\_Filter[?country_code == gb[KEYWORD]]
+  \_UnresolvedRelation[retro_arcade]"
+"Sep 6, 2024 @ 00:19:20.178","elasticsearch[es01][search_coordination][T#3]","Tree transformation took 2ms
+Aggregate[STANDARD,[?BUCKET[?purchase_date, P1Y] AS year],[?SUM[price_at_purchase * 0.75] AS sales_per_year, ?year]] ! Limit[1000[INTEGER]]
+\_Filter[?country_code == gb[KEYWORD]]                                                                               ! \_Aggregate[STANDARD,[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year],[SUM(price_at_purchase{f}#1611 * 0.75[DOUBLE])
+  \_UnresolvedRelation[retro_arcade]                                                                                 !  AS sales_per_year, year{r}#1605]]
+                                                                                                                     !   \_Filter[country_code{f}#1610 == gb[KEYWORD]]
+                                                                                                                     !     \_EsRelation[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]
+                                                                                                                    "
+"Sep 6, 2024 @ 00:19:20.179","elasticsearch[es01][search_coordination][T#3]","Analyzed plan:
+Limit[1000[INTEGER]]
+\_Aggregate[STANDARD,[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year],[SUM(price_at_purchase{f}#1611 * 0.75[DOUBLE])
+ AS sales_per_year, year{r}#1605]]
+  \_Filter[country_code{f}#1610 == gb[KEYWORD]]
+    \_EsRelation[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]"
+"Sep 6, 2024 @ 00:19:20.181","elasticsearch[es01][search_coordination][T#3]","Tree transformation took 2ms
+Limit[1000[INTEGER]]                                                                                                         = Limit[1000[INTEGER]]
+\_Aggregate[STANDARD,[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year],[SUM(price_at_purchase{f}#1611 * 0.75[DOUBLE]) ! \_Aggregate[STANDARD,[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605]]
+ AS sales_per_year, year{r}#1605]]                                                                                           !   \_Eval[[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year, price_at_purchase{f}#1611 * 0.75[DOUBLE] AS $$price_a
+  \_Filter[country_code{f}#1610 == gb[KEYWORD]]                                                                              ! t_purcha>$SUM$0]]
+    \_EsRelation[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]                                        !     \_Filter[country_code{f}#1610 == [67 62][KEYWORD]]
+                                                                                                                             !       \_EsRelation[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]
+                                                                                                                            "
+"Sep 6, 2024 @ 00:19:20.182","elasticsearch[es01][search_coordination][T#3]","Optimized logicalPlan plan:
+Limit[1000[INTEGER]]
+\_Aggregate[STANDARD,[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605]]
+  \_Eval[[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year, price_at_purchase{f}#1611 * 0.75[DOUBLE] AS $$price_a
+t_purcha>$SUM$0]]
+    \_Filter[country_code{f}#1610 == [67 62][KEYWORD]]
+      \_EsRelation[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]"
+"Sep 6, 2024 @ 00:19:20.182","elasticsearch[es01][search_coordination][T#3]","Physical plan:
+LimitExec[1000[INTEGER]]
+\_AggregateExec[[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605],FINAL,null]
+  \_ExchangeExec[[year{r}#1605, value{r}#1614, delta{r}#1615, seen{r}#1616],true]
+    \_FragmentExec[filter=null, estimatedRowSize=0, reducer=[], fragment=[<>
+Aggregate[STANDARD,[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605]]
+\_Eval[[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year, price_at_purchase{f}#1611 * 0.75[DOUBLE] AS $$price_a
+t_purcha>$SUM$0]]
+  \_Filter[country_code{f}#1610 == [67 62][KEYWORD]]
+    \_EsRelation[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]<>]]"
+"Sep 6, 2024 @ 00:19:20.182","elasticsearch[es01][search_coordination][T#3]","Optimized physical plan:
+LimitExec[1000[INTEGER]]
+\_AggregateExec[[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605],FINAL,null]
+  \_ExchangeExec[[year{r}#1605, value{r}#1614, delta{r}#1615, seen{r}#1616],true]
+    \_FragmentExec[filter=null, estimatedRowSize=0, reducer=[], fragment=[<>
+Aggregate[STANDARD,[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605]]
+\_Eval[[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year, price_at_purchase{f}#1611 * 0.75[DOUBLE] AS $$price_a
+t_purcha>$SUM$0]]
+  \_Filter[country_code{f}#1610 == [67 62][KEYWORD]]
+    \_EsRelation[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]<>]]"
+"Sep 6, 2024 @ 00:19:20.183","elasticsearch[es01][search_coordination][T#3]","Received physical plan:
+OutputExec[org.elasticsearch.xpack.esql.plugin.ComputeService$$Lambda/0x00007f85c4a1bd70@2447d78f]
+\_LimitExec[1000[INTEGER]]
+  \_AggregateExec[[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605],FINAL,16]
+    \_ExchangeSourceExec[[year{r}#1605, value{r}#1614, delta{r}#1615, seen{r}#1616],true]"
+"Sep 6, 2024 @ 00:19:20.184","elasticsearch[es01][search_coordination][T#3]","Local execution plan:
+DriverFactory(instances = 1, type = SINGLETON)
+\_ExchangeSourceOperator[]
+\_HashAggregationOperator[mode = <not-needed>, aggs = sum of doubles]
+\_ProjectOperator[projection = [1, 0]]
+\_LimitOperator[limit = 1000]
+\_OutputOperator[columns = [sales_per_year, year]]"
+"Sep 6, 2024 @ 00:19:20.185","elasticsearch[es01][search_coordination][T#3]","using 1 drivers"
+"Sep 6, 2024 @ 00:19:20.186","elasticsearch[es01][search][T#7]","Received physical plan:
+ExchangeSinkExec[[year{r}#1605, value{r}#1614, delta{r}#1615, seen{r}#1616],true]
+\_FragmentExec[filter=null, estimatedRowSize=0, reducer=[], fragment=[<>
+Aggregate[STANDARD,[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605]]
+\_Eval[[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year, price_at_purchase{f}#1611 * 0.75[DOUBLE] AS $$price_a
+t_purcha>$SUM$0]]
+  \_Filter[country_code{f}#1610 == [67 62][KEYWORD]]
+    \_EsRelation[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]<>]]"
+"Sep 6, 2024 @ 00:19:20.188","elasticsearch[es01][search][T#7]","Tree transformation took 1ms
+AggregateExec[[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605],PARTIAL,null]        = AggregateExec[[year{r}#1605],[SUM($$price_at_purcha>$SUM$0{r}#1613) AS sales_per_year, year{r}#1605],PARTIAL,null]
+\_EvalExec[[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year, price_at_purchase{f}#1611 * 0.75[DOUBLE] AS $$price_a = \_EvalExec[[BUCKET(purchase_date{f}#1612,P1Y[DATE_PERIOD]) AS year, price_at_purchase{f}#1611 * 0.75[DOUBLE] AS $$price_a
+t_purcha>$SUM$0]]                                                                                                         = t_purcha>$SUM$0]]
+  \_FilterExec[country_code{f}#1610 == [67 62][KEYWORD]]                                                                  !   \_FieldExtractExec[purchase_date{f}#1612, price_at_purchase{f}#1611]<[]>
+    \_EsSourceExec[retro_arcade][country_code{f}#1610, price_at_purchase{f}#1611, pu..]                                   !     \_EsQueryExec[retro_arcade], indexMode[standard], query[{""esql_single_value"":{""field"":""country_code"",""next"":{""term"":{""country_code"":{""value"":""gb""}}},""source"":""country_code == \""gb\""@3:9""}}][_doc{f}#1620], limit[], sort[] estimatedRowSize[null]
+                                                                                                                         "
+"Sep 6, 2024 @ 00:19:20.190","elasticsearch[es01][search][T#7]","Local execution plan:
+DriverFactory(instances = 3, type = DATA_PARALLELISM)
+\_LuceneSourceOperator[dataPartitioning = SEGMENT, maxPageSize = 7281, limit = 2147483647]
+\_ValuesSourceReaderOperator[fields = [purchase_date, price_at_purchase]]
+\_EvalOperator[evaluator=DateTruncEvaluator[fieldVal=Attribute[channel=1], rounding=Rounding[YEAR_OF_CENTURY in Z][fixed to midnight]]]
+\_EvalOperator[evaluator=MulDoublesEvaluator[lhs=Attribute[channel=2], rhs=LiteralsEvaluator[lit=0.75]]]
+\_HashAggregationOperator[mode = <not-needed>, aggs = sum of doubles]
+\_ExchangeSinkOperator"
+"Sep 6, 2024 @ 00:19:20.191","elasticsearch[es01][search][T#7]","using 3 drivers"
+"Sep 6, 2024 @ 00:19:20.192","elasticsearch[es01][search][T#7]","Received physical plan:
+ExchangeSinkExec[[year{r}#1605, value{r}#1614, delta{r}#1615, seen{r}#1616],true]
+\_ExchangeSourceExec[[year{r}#1605, value{r}#1614, delta{r}#1615, seen{r}#1616],true]"
+"Sep 6, 2024 @ 00:19:20.192","elasticsearch[es01][search][T#7]","Local execution plan:
+DriverFactory(instances = 1, type = SINGLETON)
+\_ExchangeSourceOperator[]
+\_ExchangeSinkOperator"
+"Sep 6, 2024 @ 00:19:20.192","elasticsearch[es01][search][T#7]","using 1 drivers"
+"Sep 6, 2024 @ 00:19:20.259","elasticsearch[es01][esql_worker][T#3]","Finished execution of ESQL query.
+Query string: [
+FROM retro_arcade
+| WHERE country_code == ""gb""
+| STATS sales_per_year = SUM(price_at_purchase * 0.75) BY year = BUCKET(purchase_date, 1 year )
+    ]
+Execution time: [86]ms"
+
