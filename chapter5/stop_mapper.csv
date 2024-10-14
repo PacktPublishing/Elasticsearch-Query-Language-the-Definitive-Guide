@@ -1,0 +1,604 @@
+StopName,CantonShort,CantonLong
+Aarau, AG, Aargau
+Aigle, VD, Vaud
+Allaman, VD, Vaud
+Altdorf UR, UR, Uri
+Arth-Goldau, SZ, Schwyz
+Baar, ZG, Zug
+Baar Lindenpark, ZG, Zug
+Baar Neufeld, ZG, Zug
+Baden, AG, Aargau
+Baldegg, LU, Lucerne
+Ballwil, LU, Lucerne
+Basel SBB, BS, Basel-Stadt
+Bassersdorf, ZH, Zurich
+Bern, BE, Bern
+Bex, VD, Vaud
+Birrwil, AG, Aargau
+Brugg AG, AG, Aargau
+Brunnen, SZ, Schwyz
+Buchrain, LU, Lucerne
+Cham, ZG, Zug
+Chambésy, GE, Geneva
+Chêne-Bourg, GE, Geneva
+Coppet, VD, Vaud
+Creux-de-Genthod, GE, Geneva
+Diesbach-Betschwanden, GL, Glarus
+Dietikon, ZH, Zurich
+Döttingen, AG, Aargau
+Ebikon, LU, Lucerne
+Effretikon, ZH, Zurich
+Emmenbrücke, LU, Lucerne
+Emmenbrücke Gersag, LU, Lucerne
+Ennenda, GL, Glarus
+Ermensee, LU, Lucerne
+Erstfeld, UR, Uri
+Eschenbach LU, LU, Lucerne
+Felben-Wellhausen, TG, Thurgau
+Flüelen, UR, Uri
+Frauenfeld, TG, Thurgau
+Frick, AG, Aargau
+Gelfingen, LU, Lucerne
+Genthod-Bellevue, GE, Geneva
+Genève, GE, Geneva
+Genève-Aéroport, GE, Geneva
+Genève-Champel, GE, Geneva
+Genève-Eaux-Vives, GE, Geneva
+Genève-Sécheron, GE, Geneva
+Gisikon-Root, LU, Lucerne
+Gland, VD, Vaud
+Glanzenberg, ZH, Zurich
+Glarus, GL, Glarus
+Hallwil, AG, Aargau
+Hitzkirch, LU, Lucerne
+Hochdorf, LU, Lucerne
+Hochdorf Schönau, LU, Lucerne
+Hünenberg Chämleten, ZG, Zug
+Hüttlingen-Mettendorf, TG, Thurgau
+Immensee, SZ, Schwyz
+Interlaken West, BE, Bern
+Kemptthal, ZH, Zurich
+Killwangen-Spreitenbach, AG, Aargau
+Klingnau, AG, Aargau
+Koblenz, AG, Aargau
+Kreuzlingen, TG, Thurgau
+Küssnacht am Rigi, SZ, Schwyz
+Lachen SZ, SZ, Schwyz
+Lancy-Bachet, GE, Geneva
+Lancy-Pont-Rouge, GE, Geneva
+Lausanne, VD, Vaud
+Lenzburg, AG, Aargau
+Les Tuileries, VD, Vaud
+Leuggelbach, GL, Glarus
+Liestal, BL, Basel-Landschaft
+Linthal, GL, Glarus
+Linthal Braunwaldbahn, GL, Glarus
+Luchsingen-Hätzingen, GL, Glarus
+Luzern, LU, Lucerne
+Luzern Verkehrshaus, LU, Lucerne
+Meggen, LU, Lucerne
+Meggen Zentrum, LU, Lucerne
+Mellingen Heitersberg, AG, Aargau
+Merlischachen, SZ, Schwyz
+Meyrin, GE, Geneva
+Mies, VD, Vaud
+Mitlödi, GL, Glarus
+Montreux, VD, Vaud
+Morges, VD, Vaud
+Mägenwil, AG, Aargau
+Märstetten, TG, Thurgau
+Netstal, GL, Glarus
+Neuhausen, SH, Schaffhausen
+Nidfurn-Haslen, GL, Glarus
+Näfels-Mollis, GL, Glarus
+Oberkirch LU, LU, Lucerne
+Oberwinterthur, ZH, Zurich
+Othmarsingen, AG, Aargau
+Pfäffikon SZ, SZ, Schwyz
+Pont-Céard, VD, Vaud
+Renens VD, VD, Vaud
+Reutlingen, ZH, Zurich
+Rheinfelden, AG, Aargau
+Rolle, VD, Vaud
+Rotkreuz, ZG, Zug
+Rämismühle-Zell, ZH, Zurich
+Satigny, GE, Geneva
+Schlieren, ZH, Zurich
+Schwanden GL, GL, Glarus
+Schwyz, SZ, Schwyz
+Sempach-Neuenkirch, LU, Lucerne
+Seon, AG, Aargau
+Siebnen-Wangen, SZ, Schwyz
+Siggenthal-Würenlingen, AG, Aargau
+Sisikon, UR, Uri
+Spiez, BE, Bern
+Steinen, SZ, Schwyz
+Stettbach, ZH, Zurich
+Sursee, LU, Lucerne
+Tannay, VD, Vaud
+Thun, BE, Bern
+Turbenthal, ZH, Zurich
+Turgi, AG, Aargau
+Versoix, GE, Geneva
+Villeneuve VD, VD, Vaud
+Walchwil, ZG, Zug
+Walchwil Hörndli, ZG, Zug
+Waldibrücke, LU, Lucerne
+Weinfelden, TG, Thurgau
+Wila, ZH, Zurich
+Winterthur, ZH, Zurich
+Winterthur Grüze, ZH, Zurich
+Winterthur Seen, ZH, Zurich
+Winterthur Wallrüti, ZH, Zurich
+Wädenswil, ZH, Zurich
+Ziegelbrücke, GL, Glarus
+Zimeysa, GE, Geneva
+Zug, ZG, Zug
+Zug Casino, ZG, Zug
+Zug Fridbach, ZG, Zug
+Zug Oberwil, ZG, Zug
+Zug Postplatz, ZG, Zug
+Zug Schutzengel, ZG, Zug
+Zürich Altstetten, ZH, Zurich
+Zürich Flughafen, ZH, Zurich
+Zürich HB, ZH, Zurich
+Zürich Hardbrücke, ZH, Zurich
+Zürich Oerlikon, ZH, Zurich
+Zürich Stadelhofen, ZH, Zurich
+Zürich Wipkingen, ZH, Zurich
+Zürich Wollishofen, ZH, Zurich
+Aadorf, TG, Thurgau
+Aarburg-Oftringen, AG, Aargau
+Aathal, ZH, Zurich
+Aesch BL, BL, Basel-Landschaft
+Affoltern am Albis, ZH, Zurich
+Airolo, TI, Ticino
+Altendorf, SZ, Schwyz
+Altstätten SG, SG, St. Gallen
+Ambrì-Piotta, TI, Ticino
+Amriswil, TG, Thurgau
+Andelfingen, ZH, Zurich
+Arnex, VD, Vaud
+Au ZH, ZH, Zurich
+Auvernier, NE, Neuchâtel
+Avenches, VD, Vaud
+Bad Ragaz, SG, St. Gallen
+Bad Zurzach, AG, Aargau
+Baldegg Kloster, LU, Lucerne
+Balerna, TI, Ticino
+Balsthal, SO, Solothurn
+Basel Bad Bf, BS, Basel-Stadt
+Basel Dreispitz, BS, Basel-Stadt
+Basel Grenze (FR), BS, Basel-Stadt
+Basel St Johann, BS, Basel-Stadt
+Bassecourt, JU, Jura
+Bavois, VD, Vaud
+Beinwil am See, AG, Aargau
+Belfaux CFF, FR, Fribourg
+Bellach, SO, Solothurn
+Bellinzona, TI, Ticino
+Benzenschwil, AG, Aargau
+Bettlach, SO, Solothurn
+Bevaix, NE, Neuchâtel
+Biasca, TI, Ticino
+Biel Mett, BE, Bern
+Biel/Bienne, BE, Bern
+Biel/Bienne Bözingenfeld/Champ, BE, Bern
+Bilten, GL, Glarus
+Birmensdorf ZH, ZH, Zurich
+Birr, AG, Aargau
+Bodio TI, TI, Ticino
+Boncourt, JU, Jura
+Boniswil, AG, Aargau
+Bonstetten-Wettswil, ZH, Zurich
+Bossière, VD, Vaud
+Boswil-Bünzen, AG, Aargau
+Boudry, NE, Neuchâtel
+Bretonnières, VD, Vaud
+Brig, VS, Valais
+Brittnau-Wikon, AG, Aargau
+Bubikon, ZH, Zurich
+Buchs SG, SG, St. Gallen
+Buchs-Dällikon, ZH, Zurich
+Buckten, BL, Basel-Landschaft
+Buix, JU, Jura
+Burgdorf, BE, Bern
+Burier, VD, Vaud
+Bussigny, VD, Vaud
+Bäch SZ, SZ, Schwyz
+Bülach, ZH, Zurich
+Cadenazzo, TI, Ticino
+Capolago-Riva S Vitale, TI, Ticino
+Castione-Arbedo, TI, Ticino
+Cham Alpenblick, ZG, Zug
+Chambrelien, NE, Neuchâtel
+Chavornay, VD, Vaud
+Chexbres-Village, VD, Vaud
+Cheyres, FR, Fribourg
+Chez-le-Maître-Ecoles, VD, Vaud
+Chiasso, TI, Ticino
+Chiasso Olimpino II, TI, Ticino
+Chur, GR, Graubünden
+Châtillens, VD, Vaud
+Clarens, VD, Vaud
+Colmegna, IT, Italy
+Colombier NE, NE, Neuchâtel
+Concise, VD, Vaud
+Corcelles-Nord, NE, Neuchâtel
+Corcelles-Peseux, NE, Neuchâtel
+Corcelles-Sud, NE, Neuchâtel
+Corgémont, BE, Bern
+Cormoret, BE, Bern
+Cornaux NE, NE, Neuchâtel
+Corseaux-Cornalles, VD, Vaud
+Cortébert, BE, Bern
+Cossonay-Penthalaz, VD, Vaud
+Courchavon, JU, Jura
+Courfaivre, JU, Jura
+Courgenay, JU, Jura
+Court, BE, Bern
+Courtelary, BE, Bern
+Courtemaîche, JU, Jura
+Courtételle, JU, Jura
+Cousset, FR, Fribourg
+Cressier NE, NE, Neuchâtel
+Croy-Romainmôtier, VD, Vaud
+Cugy FR, FR, Fribourg
+Cully, VD, Vaud
+Dachsen, ZH, Zurich
+Dagmersellen, LU, Lucerne
+Deitingen, SO, Solothurn
+Delémont, JU, Jura
+Denges-Echandens, VD, Vaud
+Dielsdorf, ZH, Zurich
+Diepflingen, BL, Basel-Landschaft
+Dietlikon, ZH, Zurich
+Domdidier, FR, Fribourg
+Dompierre FR, FR, Fribourg
+Dornach-Arlesheim, SO, Solothurn
+Dottikon-Dintikon, AG, Aargau
+Duggingen, BL, Basel-Landschaft
+Dulliken, SO, Solothurn
+Däniken SO, SO, Solothurn
+Dübendorf, ZH, Zurich
+Düdingen, FR, Fribourg
+Eclépens, VD, Vaud
+Ecublens-Rue, VD, Vaud
+Egerkingen, SO, Solothurn
+Eglisau, ZH, Zurich
+Eiken, AG, Aargau
+Elgg, ZH, Zurich
+Emmenbrücke Kapf, LU, Lucerne
+Ependes VD, VD, Vaud
+Epesses, VD, Vaud
+Erlenbach ZH, ZH, Zurich
+Eschlikon TG, TG, Thurgau
+Essert-Pittet, VD, Vaud
+Estavayer-le-Lac, FR, Fribourg
+Etoy, VD, Vaud
+Faido, TI, Ticino
+Faoug, VD, Vaud
+Fehraltorf, ZH, Zurich
+Feldbach, ZH, Zurich
+Flamatt, FR, Fribourg
+Flawil, SG, St. Gallen
+Flums, SG, St. Gallen
+Freienbach SBB, SZ, Schwyz
+Frenkendorf-Füllinsdorf, BL, Basel-Landschaft
+Fribourg/Freiburg, FR, Fribourg
+Frinvillier-Taubenloch, BE, Bern
+Frutigen, BE, Bern
+Galmiz, FR, Fribourg
+Gelterkinden, BL, Basel-Landschaft
+Gerra (Gambarogno), TI, Ticino
+Giubiasco, TI, Ticino
+Givisiez, FR, Fribourg
+Glattbrugg, ZH, Zurich
+Glattfelden, ZH, Zurich
+Glovelier, JU, Jura
+Gordola, TI, Ticino
+Gorgier-St-Aubin, NE, Neuchâtel
+Gossau SG, SG, St. Gallen
+Grandson, VD, Vaud
+Grandvaux, VD, Vaud
+Granges-Marnand, VD, Vaud
+Grellingen, BL, Basel-Landschaft
+Grenchen Nord, SO, Solothurn
+Grenchen Süd, SO, Solothurn
+Grolley, FR, Fribourg
+Guntershausen, TG, Thurgau
+Göschenen, UR, Uri
+Hedingen, ZH, Zurich
+Heerbrugg, SG, St. Gallen
+Hendschiken, AG, Aargau
+Henggart, ZH, Zurich
+Henniez, VD, Vaud
+Herrliberg-Feldmeilen, ZH, Zurich
+Herzogenbuchsee, BE, Bern
+Hettlingen, ZH, Zurich
+Hinwil, ZH, Zurich
+Holderbank AG, AG, Aargau
+Horgen, ZH, Zurich
+Horgen Oberdorf, ZH, Zurich
+Hunzenschwil, AG, Aargau
+Hägendorf, SO, Solothurn
+Hünenberg Zythus, ZG, Zug
+Hüntwangen-Wil, ZH, Zurich
+Illnau, ZH, Zurich
+Im Holz, SG, St. Gallen
+Interlaken Ost, BE, Bern
+Islikon, TG, Thurgau
+Itingen, BL, Basel-Landschaft
+Jestetten, DE, Germany
+Jona, SG, St. Gallen
+Kaiseraugst, AG, Aargau
+Kempraten, SG, St. Gallen
+Kempten, ZH, Zurich
+Kerzers, FR, Fribourg
+Kilchberg ZH, ZH, Zurich
+Kloten, ZH, Zurich
+Kloten Balsberg, ZH, Zurich
+Klus, SO, Solothurn
+Knonau, ZH, Zurich
+Koblenz Dorf, AG, Aargau
+Kollbrunn, ZH, Zurich
+Kölliken, AG, Aargau
+Kölliken Oberdorf, AG, Aargau
+Küngoldingen, AG, Aargau
+Küsnacht Goldbach, ZH, Zurich
+Küsnacht ZH, ZH, Zurich
+La Chaux-de-Fonds, NE, Neuchâtel
+La Chaux-de-Fonds Les Forges, NE, Neuchâtel
+La Conversion, VD, Vaud
+La Heutte, BE, Bern
+La Neuveville, BE, Bern
+La Plaine, GE, Geneva
+La Sarraz, VD, Vaud
+La Tour-de-Peilz, VD, Vaud
+Lamone-Cadempino, TI, Ticino
+Landquart, GR, Graubünden
+Langendorf, SO, Solothurn
+Langenthal, BE, Bern
+Laufen, BL, Basel-Landschaft
+Laufenburg, AG, Aargau
+Lausen, BL, Basel-Landschaft
+Lavorgo, TI, Ticino
+Le Brassus, VD, Vaud
+Le Crêt-du-Locle, NE, Neuchâtel
+Le Day, VD, Vaud
+Le Landeron, NE, Neuchâtel
+Le Lieu, VD, Vaud
+Le Locle, NE, Neuchâtel
+Le Pont, VD, Vaud
+Le Rocheray, VD, Vaud
+Le Sentier-L'Orient, VD, Vaud
+Le Solliat-La Golisse, VD, Vaud
+Le Séchey, VD, Vaud
+Lengnau BE, BE, Bern
+Les Charbonnières, VD, Vaud
+Les Deurres, NE, Neuchâtel
+Les Esserts-de-Rive, NE, Neuchâtel
+Les Geneveys-sur-Coffrane, NE, Neuchâtel
+Les Hauts-Geneveys, NE, Neuchâtel
+Leuk, VS, Valais
+Ligerz, BE, Bern
+Locarno, TI, Ticino
+Lommiswil, SO, Solothurn
+Lonay-Préverenges, VD, Vaud
+Lottstetten, DE, Germany
+Lucens, VD, Vaud
+Lugano, TI, Ticino
+Lupfig, AG, Aargau
+Luterbach-Attisholz, SO, Solothurn
+Lutry, VD, Vaud
+Läufelfingen, BL, Basel-Landschaft
+Léchelles, FR, Fribourg
+Maccagno, IT, Italy
+Magadino-Vira, TI, Ticino
+Maienfeld, GR, Graubünden
+Malleray-Bévilard, BE, Bern
+Maroggia-Melano, TI, Ticino
+Marthalen, ZH, Zurich
+Martigny, VS, Valais
+Meilen, ZH, Zurich
+Melide, TI, Ticino
+Mendrisio, TI, Ticino
+Mendrisio S Martino, TI, Ticino
+Mettmenstetten, ZH, Zurich
+Mezzovico, TI, Ticino
+Minusio, TI, Ticino
+Moreillon, VD, Vaud
+Morges-St-Jean, VD, Vaud
+Mosen, LU, Lucerne
+Moudon, VD, Vaud
+Moutier, BE, Bern
+Mumpf, AG, Aargau
+Muntelier-Löwenberg, FR, Fribourg
+Murgenthal, AG, Aargau
+Muri AG, AG, Aargau
+Murten/Morat, FR, Fribourg
+Muttenz, BL, Basel-Landschaft
+Männedorf, ZH, Zurich
+Möhlin, AG, Aargau
+Mühlau, AG, Aargau
+Müllheim-Wigoltingen, TG, Thurgau
+Münchenstein, BL, Basel-Landschaft
+Münsingen, BE, Bern
+Nebikon, LU, Lucerne
+Neuchâtel, NE, Neuchâtel
+Neuchâtel-Serrières, NE, Neuchâtel
+Neuenhof, AG, Aargau
+Neuhausen Rheinfall, SH, Schaffhausen
+Niederbipp, BE, Bern
+Niederglatt ZH, ZH, Zurich
+Niederhasli, ZH, Zurich
+Niederweningen, ZH, Zurich
+Niederweningen Dorf, ZH, Zurich
+Nottwil, LU, Lucerne
+Nyon, VD, Vaud
+Nänikon-Greifensee, ZH, Zurich
+Oberbuchsiten, SO, Solothurn
+Oberdorf SO, SO, Solothurn
+Oberentfelden, AG, Aargau
+Oberglatt ZH, ZH, Zurich
+Oberrieden, ZH, Zurich
+Oberrieden Dorf, ZH, Zurich
+Oberrüti, AG, Aargau
+Oensingen, SO, Solothurn
+Olten, SO, Solothurn
+Olten Hammer, SO, Solothurn
+Opfikon, ZH, Zurich
+Oron, VD, Vaud
+Otelfingen, ZH, Zurich
+Otelfingen Golfpark, ZH, Zurich
+Palézieux, VD, Vaud
+Palézieux-Village, VD, Vaud
+Paradiso, TI, Ticino
+Payerne, VD, Vaud
+Pfäffikon ZH, ZH, Zurich
+Pieterlen, BE, Bern
+Pino-Tronzano, IT, Italy
+Pontenet, BE, Bern
+Porrentruy, JU, Jura
+Pratteln, BL, Basel-Landschaft
+Pratteln Salina Raurica, BL, Basel-Landschaft
+Prilly-Malley, VD, Vaud
+Puidoux, VD, Vaud
+Pully, VD, Vaud
+Pully-Nord, VD, Vaud
+Quartino, TI, Ticino
+Rafz, ZH, Zurich
+Ranzo-S Abbondio, TI, Ticino
+Rapperswil SG, SG, St. Gallen
+Reconvilier, BE, Bern
+Regensdorf-Watt, ZH, Zurich
+Reichenburg, SZ, Schwyz
+Reiden, LU, Lucerne
+Rekingen AG, AG, Aargau
+Renan BE, BE, Bern
+Reuchenette-Péry, BE, Bern
+Rheinfelden Augarten, AG, Aargau
+Riazzino, TI, Ticino
+Richterswil, ZH, Zurich
+Rickenbach-Attikon, ZH, Zurich
+Rietheim, AG, Aargau
+Rikon, ZH, Zurich
+Rivaz, VD, Vaud
+Rivera-Bironico, TI, Ticino
+Roche VD, VD, Vaud
+Roggwil-Wynau, BE, Bern
+Romanshorn, TG, Thurgau
+Romont FR, FR, Fribourg
+Root D4, LU, Lucerne
+Rorschach, SG, St. Gallen
+Rothenburg Station, LU, Lucerne
+Rothrist, AG, Aargau
+Rupperswil, AG, Aargau
+Russin, GE, Geneva
+Räterschen, ZH, Zurich
+Rümlang, ZH, Zurich
+Rümlingen, BL, Basel-Landschaft
+Rüschlikon, ZH, Zurich
+Rüti GL, GL, Glarus
+Rüti ZH, ZH, Zurich
+S Antonino, TI, Ticino
+S Nazzaro, TI, Ticino
+Safenwil, AG, Aargau
+Sargans, SG, St. Gallen
+Schaffhausen, SH, Schaffhausen
+Schinznach Bad, AG, Aargau
+Schloss Laufen am Rheinfall, SH, Schaffhausen
+Schottikon, ZH, Zurich
+Schwerzenbach ZH, ZH, Zurich
+Schöfflisdorf-Oberweningen, ZH, Zurich
+Schönenwerd SO, SO, Solothurn
+Schübelbach-Buttikon, SZ, Schwyz
+Selzach, SO, Solothurn
+Sennhof-Kyburg, ZH, Zurich
+Seon Nord, AG, Aargau
+Seuzach, ZH, Zurich
+Sierre/Siders, VS, Valais
+Sins, AG, Aargau
+Sion, VS, Valais
+Sirnach, TG, Thurgau
+Sissach, BL, Basel-Landschaft
+Solothurn, SO, Solothurn
+Solothurn Allmend, SO, Solothurn
+Solothurn West, SO, Solothurn
+Sommerau, BL, Basel-Landschaft
+Sonceboz-Sombeval, BE, Bern
+Sonvilier, BE, Bern
+Sorvilier, BE, Bern
+St Erhard-Knutwil, LU, Lucerne
+St Gallen, SG, St. Gallen
+St Margrethen SG, SG, St. Gallen
+St-Blaise CFF, NE, Neuchâtel
+St-Imier, BE, Bern
+St-Maurice, VS, Valais
+St-Prex, VD, Vaud
+St-Saphorin, VD, Vaud
+St-Ursanne, JU, Jura
+Stabio, TI, Ticino
+Stein-Säckingen, AG, Aargau
+Steinhausen, ZG, Zug
+Steinhausen Rigiblick, ZG, Zug
+Steinmaur, ZH, Zurich
+Stäfa, ZH, Zurich
+Suhr, AG, Aargau
+Sulgen, TG, Thurgau
+Tavannes, BE, Bern
+Taverne-Torricella, TI, Ticino
+Tecknau, BL, Basel-Landschaft
+Tenero, TI, Ticino
+Territet, VD, Vaud
+Thalbrücke, SG, St. Gallen
+Thalwil, ZH, Zurich
+Travers, NE, Neuchâtel
+Trimbach, SO, Solothurn
+Twann, BE, Bern
+Tüscherz, BE, Bern
+Uerikon, ZH, Zurich
+Uetikon, ZH, Zurich
+Urdorf, ZH, Zurich
+Urdorf Weihermatt, ZH, Zurich
+Uster, ZH, Zurich
+Uzwil, SG, St. Gallen
+Vallorbe, VD, Vaud
+Vauderens, FR, Fribourg
+Vaumarcus, NE, Neuchâtel
+Vernier, GE, Geneva
+Vevey, VD, Vaud
+Vevey-Funi, VD, Vaud
+Veytaux-Chillon, VD, Vaud
+Villeret, BE, Bern
+Villette VD, VD, Vaud
+Visp, VS, Valais
+Vufflens-la-Ville, VD, Vaud
+Walenstadt, SG, St. Gallen
+Wallisellen, ZH, Zurich
+Walterswil-Striegel, SO, Solothurn
+Wangen an der Aare, BE, Bern
+Wangen bei Olten, SO, Solothurn
+Wauwil, LU, Lucerne
+Wettingen, AG, Aargau
+Wetzikon ZH, ZH, Zurich
+Wiesendangen, ZH, Zurich
+Wil SG, SG, St. Gallen
+Wildegg, AG, Aargau
+Winkel am Zürichsee, ZH, Zurich
+Winterthur Hegi, ZH, Zurich
+Wohlen AG, AG, Aargau
+Wynigen, BE, Bern
+Würenlos, AG, Aargau
+Yverdon-Champ Pittet, VD, Vaud
+Yverdon-les-Bains, VD, Vaud
+Yvonand, VD, Vaud
+Zofingen, AG, Aargau
+Zollikon, ZH, Zurich
+Zug Chollermüli, ZG, Zug
+Zwingen, BL, Basel-Landschaft
+Zürich Affoltern, ZH, Zurich
+Zürich Enge, ZH, Zurich
+Zürich Seebach, ZH, Zurich
+Zürich Tiefenbrunnen, ZH, Zurich
+Zürich Wiedikon, ZH, Zurich
